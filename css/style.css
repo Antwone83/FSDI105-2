@@ -1,0 +1,113 @@
+#usersTable {
+    width: 100%;
+    border: black;
+    grid-template-rows: auto;
+    color: black;
+}
+.error{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(156, 154, 154);
+    height:50px;
+}
+img.logo{
+    height:50px;
+}
+.icon-home{
+   text-transform: uppercase;
+   font-size: 13px;
+   font-weight: 900;
+   letter-spacing: 3px;
+   color: black;
+   margin-left: 20px;
+}
+.icon-register{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: white;
+    padding: 20px;
+    background-color: rgb(102, 102, 102);
+    margin-left: 20px;
+   
+}
+.icon-user{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: black;
+    margin-left: 20px;
+ }
+.fa-search,.icon-users,.icon-users{
+    display: none;
+    margin-left: 20px;
+}
+.fa-angle-double-down{
+    margin-left: 20px;
+}
+/*header*/
+header{
+    height: 230px;
+   color: rgb(172, 172, 172);
+   text-align: center;
+}
+header h1{
+text-transform: uppercase;
+font-size: 40px;
+letter-spacing: 3px;
+margin-top: 60px;
+}  
+header p{
+    width: 70%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+main h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+table usersTable{
+   -ms-grid-column-align: center;
+}
+.icon-home {
+    box-shadow: 0 4px 8px 0 rgba(231, 255, 11, 0.87);
+    transition: 1.3s;
+    border-radius: 5px;
+    width: 40%;
+    height: 61%;
+  }
+  .icon-register {
+    box-shadow: 0 4px 8px 0 rgba(231, 255, 11, 0.87);
+    transition: 1.3s;
+    border-radius: 5px;
+    width: 40%;
+    height: 61%;
+  }
+  .icon-user{
+    box-shadow: 0 4px 8px 0 rgba(231, 255, 11, 0.87);
+    transition: 1.3s;
+    border-radius: 5px;
+    width: 40%;
+    height: 61%;
+  }
+  .icon-home:hover {
+    box-shadow: 0 8px 16px 0 rgb(107, 255, 8);
+  }
+  .icon-register:hover {
+    box-shadow: 0 8px 16px 0 rgb(107, 255, 8);
+  }
+  .icon-user:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+  }

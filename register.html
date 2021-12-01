@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <nav class="menu">
+            <img class="logo" src="/images/lighting-diagram.png" alt="petphotography"> 
+            <div class="icons">
+                <a class="icon-home" href="index.html">Home</a>
+                <i class="fas fa-search"></i>
+                <a class="icon-register" href="register.html">Register</a>
+                <a class="icon-user" href="#">Users</a>  
+                <i class="fas fa-angle-double-down"></i> 
+            </div>
+            </nav>
+
+    <main>
+        <header>
+        <h1>Super Registration System</h1>
+        <p>"Insert instructions"</p>
+        
+            
+            <div class="control">
+                <label>Email</label>
+                <input id="txtEmail" type="email" placeholder="smartd@aol.com">
+                </div>      
+            <div class="control">
+                <label>Password</label>
+                <input id="txtpass" type="password" placeholder="********">
+                </div>
+            <div class="control">
+                <label>First Name</label>
+                <input id="txtfname" type="text" placeholder="Danielle">
+                </div>
+            <div class="control">
+                <label>Last Name</label>
+                <input id="txtlname" type="text" placeholder="Smart">
+                </div>
+            <div class="control">
+                <label>Age</label>
+                <input id="txtAge" type="tel" placeholder="35">
+                </div>
+            <div class="control">
+                <label>Address</label>
+                <input id="txtAddress" type="text" placeholder="1234 Retired Lane">
+                </div>
+            <div class="control">
+                <label>Phone Number</label>
+                <input id="txtPhone" type="tel" placeholder="555-555-5555">
+                </div>
+                <div class="control">
+                    <label>Payment</label>
+                    <select id="selPayment">
+                        <option>Paypal</option>
+                        <option>CashApp</option>
+                        <option>Venmo</option>
+                        <option>Bitcoin</option>
+                    </select>
+                </div>
+            <div class="control">
+                <label>Color</label>
+                <input id="txtColor" type="color" placeholder="john@example.com">
+                </div>
+      
+             <div class="control">
+                <button onclick ="registerUser()" id="btnSave">Register User</button>
+            </div>
+            
+               
+            
+            <!--create a form (inputs) for with the next fields: email, password, firstname, lastname, age, address,phone, payment, color-->
+        
+        </header>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
